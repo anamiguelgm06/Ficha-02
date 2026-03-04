@@ -75,3 +75,47 @@
 .nav-cliente a:hover {
     background-color: #0056b3;
 }
+
+/* Estilos para o Rodapé */
+.footer-container {
+ display: flex; /* Ativa o layout flexível */
+ background-color: #343a40; /* Cor de fundo escura */
+ color: white; /* Cor do texto */
+ padding: 40px 20px; /* Espaçamento interno do rodapé */
+ flex-wrap: wrap; /* Permite que os itens se ajustem em ecrãs pequenos */
+ position: fixed; /* Fixa o rodapé no fundo da página */
+ bottom: 0; /* Alinha o rodapé à parte inferior */
+ left: 0; /* Alinha o rodapé à esquerda */
+ width: 100%; /* Faz o rodapé ocupar toda a largura da página */
+} 
+
+.footer-section {
+ flex: 1; /* Faz com que as secções tenham larguras iguais */
+ min-width: 250px; /* Define uma largura mínima para cada secção */
+ padding: 10px; /* Espaçamento interno */
+ text-align: center; /* Centraliza o conteúdo de cada bloco */
+}
+
+.footer-section strong {
+ font-size: 1.2rem; /* Tamanho da fonte para os títulos */
+ display: block; /* Ocupa toda a largura disponível */
+ margin-bottom: 10px; /* Espaçamento abaixo do título */
+ color: #f8f9fa; /* Cor clara para destaque */
+} 
+
+.footer-section p {
+ font-size: 1rem; /* Tamanho padrão do texto */
+ color: #d6d6d6; /* Cor do texto em cinza claro */
+}
+
+/* Texto Genérico */
+.container-texto-generico {
+ display: flex; /* Ativa o layout flexível */
+ justify-content: center; /* Centraliza os elementos horizontalmente */
+ flex-wrap: wrap; /* Permite quebra de linha em ecrãs menores */
+ gap: 20px; /* Espaço entre os elementos */
+ padding: 100px 40px; /* Espaçamento interno (superior/inferior e laterais) */
+ text-align: center; /* Centraliza o texto dentro dos artigos */
+ min-height: 100vh; /* Garante altura mínima de uma janela (ecrã) */
+}
+
