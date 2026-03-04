@@ -1,0 +1,77 @@
+/* Seletor Universal - Remove margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+/* Estilo da barra de navegação principal */
+.bng-navbar {
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+
+/* Estilo para os <div> internos da barra de navegação */
+.bng-navbar div {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo do logótipo na barra de navegação */
+.bng-navbar img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Estilo do texto com o nome do ginásio */
+.bng-navbar h3 {
+    font-size: 1.5em;
+    color: #dddddd;
+}
+
+/* ========================= */
+/* MENU CENTRAL */
+/* ========================= */
+
+.container-navegacao {
+    text-align: center;
+    padding: 20px;
+}
+
+.container-navegacao a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.container-navegacao a:hover {
+    color: #ffffff;
+}
+
+/* ========================= */
+/* BOTÃO ÁREA CLIENTE */
+/* ========================= */
+
+.nav-cliente a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-cliente a:hover {
+    background-color: #0056b3;
+}
